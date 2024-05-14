@@ -15,7 +15,7 @@ public class ExchangeRate {
 	public static double getRate(String currencyCode) throws Exception {
 		try {
 			String firstPartURL = "https://v6.exchangerate-api.com/v6/";
-			String key = "5e1042612349f001c8670cb5";
+			String key = "API KEY";
 			String thirdPartURL = "/latest/USD";
 			String theURL = firstPartURL + key + thirdPartURL;
 

@@ -15,7 +15,7 @@ public class Weather211 {
 
 		try {
 			String firstPartURL = "https://api.openweathermap.org/data/2.5/weather?q=";
-			String secondPartURL = "&APPID=0fba4f746bb48d75fb50bae146c6ad34";
+			String secondPartURL = "&APPID=APIKEY";
 			String theURL = firstPartURL + cityName + secondPartURL;
 
 			@SuppressWarnings("deprecation")
